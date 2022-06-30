@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-29T12:13:57 UTC" name="Freshflows web automation" finished-at="2022-06-29T12:14:46 UTC" duration-ms="49157">
+    <groups>
+    </groups>
+    <test started-at="2022-06-29T12:13:57 UTC" name="Regression" finished-at="2022-06-29T12:14:46 UTC" duration-ms="49100">
+      <class name="com.freshflows.tests.loginPageTest">
+        <test-method is-config="true" signature="setupDriver(org.testng.ITestContext)[pri:0, instance:com.freshflows.tests.loginPageTest@53aad5d5]" started-at="2022-06-29T12:13:57 UTC" name="setupDriver" finished-at="2022-06-29T12:14:02 UTC" duration-ms="5079" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3a6bb9bf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="login()[pri:0, instance:com.freshflows.tests.loginPageTest@53aad5d5]" started-at="2022-06-29T12:14:02 UTC" name="login" finished-at="2022-06-29T12:14:10 UTC" duration-ms="8151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="newOrgCreation()[pri:0, instance:com.freshflows.tests.loginPageTest@53aad5d5]" started-at="2022-06-29T12:14:10 UTC" name="newOrgCreation" finished-at="2022-06-29T12:14:46 UTC" depends-on-methods="com.freshflows.tests.loginPageTest.login" duration-ms="35547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newOrgCreation -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.freshflows.tests.loginPageTest@53aad5d5]" started-at="2022-06-29T12:14:46 UTC" name="quitDriver" finished-at="2022-06-29T12:14:46 UTC" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.freshflows.tests.loginPageTest -->
+    </test> <!-- Regression -->
+    <test started-at="2022-06-29T12:13:57 UTC" name="Regression1" finished-at="2022-06-29T12:14:46 UTC" duration-ms="49157">
+      <class name="com.freshflows.tests.loginPageTest">
+        <test-method is-config="true" signature="setupDriver(org.testng.ITestContext)[pri:0, instance:com.freshflows.tests.loginPageTest@68267da0]" started-at="2022-06-29T12:13:57 UTC" name="setupDriver" finished-at="2022-06-29T12:14:02 UTC" duration-ms="5079" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@59af0466]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="login()[pri:0, instance:com.freshflows.tests.loginPageTest@68267da0]" started-at="2022-06-29T12:14:02 UTC" name="login" finished-at="2022-06-29T12:14:12 UTC" duration-ms="9828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="newOrgCreation()[pri:0, instance:com.freshflows.tests.loginPageTest@68267da0]" started-at="2022-06-29T12:14:12 UTC" name="newOrgCreation" finished-at="2022-06-29T12:14:46 UTC" depends-on-methods="com.freshflows.tests.loginPageTest.login" duration-ms="33982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newOrgCreation -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.freshflows.tests.loginPageTest@68267da0]" started-at="2022-06-29T12:14:46 UTC" name="quitDriver" finished-at="2022-06-29T12:14:46 UTC" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.freshflows.tests.loginPageTest -->
+    </test> <!-- Regression1 -->
+  </suite> <!-- Freshflows web automation -->
+</testng-results>
