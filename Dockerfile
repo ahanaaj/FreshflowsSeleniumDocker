@@ -15,6 +15,6 @@ ADD target/libs							libs
 ADD test-output                         test-output
 ADD testng.xml 							testng.xml
 
-RUN wget  https://s3.amazonaws.com/selenium-docker/healthcheck/healthcheck.sh
+ADD healthcheck.sh healthcheck.sh
 
 ENTRYPOINT sh healthcheck.sh
